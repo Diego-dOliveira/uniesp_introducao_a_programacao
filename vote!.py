@@ -1,3 +1,4 @@
+ano = int(input("Digite o ano atual:")
 idade = int(input("Em que ano você nasceu?"))
 
 if idade < 2007:
