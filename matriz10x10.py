@@ -14,4 +14,9 @@ for linha in range(10):
 for linha_matriz in matrizA:
     print(linha_matriz)
     for i in linha_matriz:
-        print(i*3)
+        outro = i*3
+        print(outro)
+
+        matrizB.append(outro)
+
+    print(matrizB)
