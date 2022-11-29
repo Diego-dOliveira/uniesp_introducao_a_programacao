@@ -57,6 +57,4 @@ while True:
 # Luiz Claudio S.A Filho
 # Diego de Oliveira Santana Cipriano
 # Matheus Ataide
-# Amanda Farias
-# Ana Lícia
-
+# Amanda Alice de Oliveira Farias
