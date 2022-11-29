@@ -31,14 +31,15 @@ with open(file + '.json', 'w', encoding='UTF-8') as arquivo:
     arquivo.write(dados)
 
 while True:
+
+    try:
+        answers.status_code == 200
+    except(KeyError, ValueError, TypeError):
+        print("Não foi possível adquirir as informações")
+
     op = input("1 - Cadastrar cidades\n"
                "2 - Cidades cadastradas\n"
                "3 - Sair")
-
-    try:
-        op == True
-    except (ValueError, TypeError):
-        print("Digite apenas o número das opções")
 
     if op == 1:
         qual = input("Qual a cidade desejada?:")
@@ -50,4 +51,12 @@ while True:
 
     elif op == 3:
         break
+
+# Desenvolvido por:
+# Maria Gabriela Anselmo de Souza Batista
+# Luiz Claudio S.A Filho
+# Diego de Oliveira Santana Cipriano
+# Matheus Ataide
+# Amanda Farias
+# Ana Lícia
 
